@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <h3>Calculator</h3>
+    <div class="container">
+        <div id="result">
+
+        </div>
+        <div>
+            <button onclick="
+            updateElement('1')">1</button>
+            <button onclick="
+            updateElement('2')">2</button>
+            <button onclick="
+            updateElement('3')">3</button>
+            <button class="operations" onclick="
+            updateElement('+')">+</button>
+        </div>
+        <div>
+            <button onclick="
+            updateElement('4')">4</button>
+            <button onclick="
+            updateElement('5')">5</button>
+            <button onclick="
+            updateElement('6')">6</button>
+            <button class="operations" onclick="
+            updateElement('-')">-</button>
+        </div>
+        <div>
+            <button onclick="
+            updateElement('7')">7</button>
+            <button onclick="
+            updateElement('8')">8</button>
+            <button onclick="
+            updateElement('9')">9</button>
+            <button class="operations" onclick="
+            updateElement('*')">*</button>
+        </div>
+        <div>
+            <button onclick="
+            updateElement('0')">0</button>
+            <button onclick="
+            updateElement('.')">.</button>
+            <button id="equals" onclick="calculate()">=</button>
+            <button class="operations" onclick="
+            updateElement('/')">/</button>
+        </div>
+        <button id="clear" onclick="num = '';
+        document.getElementById('result').innerText = '0';
+        ">Clear</button>
+    </div>
+
+</body>
+<script>
+
+
+    let num = '';
+    const result = document.getElementById("result");
+    result.innerText = '0';
+
+
+    function updateElement(value) {
+        num += value;
+        result.innerText = num;
+    }
+
+    function calculate() {
+        try {
+            num = eval(num).toString();
+            result.innerText = num;
+        }
+        catch {
+
+            result.innerText = "Enter a Valid Expression";
+            num = '';
+
+        }
+    }
+</script>
+
+</html>
