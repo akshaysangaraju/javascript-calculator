@@ -15,7 +15,7 @@ A clean, responsive calculator with a dark theme built using HTML, CSS, and vani
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/akshaysangaraju/javascript-calculator.git](https://github.com/akshaysangaraju/javascript-calculator.git)
+   git clone https://github.com/akshaysangaraju/javascript-calculator.git
 
 2. **Open the project**: Navigate to the folder and open calculator.html in your web browser.
 
