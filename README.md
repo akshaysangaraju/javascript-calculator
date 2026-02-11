@@ -3,7 +3,7 @@
 A clean, responsive calculator with a dark theme built using HTML, CSS, and vanilla JavaScript.
 
 ![Calculator Screenshot](./screenshot.png) 
-## ✨ Features
+##  Features
 
 - **Basic Operations:** Addition, subtraction, multiplication, and division.
 - **Decimal Support:** Handles floating-point calculations.
@@ -11,8 +11,24 @@ A clean, responsive calculator with a dark theme built using HTML, CSS, and vani
 - **Clear Function:** Instantly resets the calculator.
 - **Dark Mode UI:** Designed with a modern slate color palette.
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/akshaysangaraju/javascript-calculator.git](https://github.com/akshaysangaraju/javascript-calculator.git)
+
+2. **Open the project**: Navigate to the folder and open calculator.html in your web browser.
+
+That's it!
+
+## **Built With**
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla)
+
+## **Author**
+
+Akshay Sangaraju - https://github.com/akshaysangaraju
